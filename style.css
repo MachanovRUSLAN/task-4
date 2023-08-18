@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul li:first-child{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+ul li:nth-child(2){
+    background-color: silver;
+}
+ul li:nth-child(3){
+    background: gray;
+}
+ul li:nth-child(4){
+    background: rgb(6, 103, 248);
+}
+ul li:nth-child(5){
+    background: rgb(95, 6, 6);
+}
+ul li:nth-child(6){
+    background: rgb(253, 20, 20);
+}
+ul li:nth-child(7){
+    background: rgb(110, 9, 105);
+}
+ul li:nth-child(8){
+    background: rgb(248, 49, 198);
+}
+ul li:nth-child(9){
+    background: rgb(50, 139, 32);
+}
+ul li:nth-child(10){
+    background: rgb(55, 223, 13);
+}
+ul li:nth-child(11){
+    background: rgb(67, 88, 9);
+}
+ul li:nth-child(12){
+    background: rgb(214, 238, 1);
+}
+ul li:nth-child(13){
+    background: rgb(8, 23, 63);
+}
+ul li:nth-child(14){
+    background: rgb(15, 36, 221);
+}
+ul li:nth-child(15){
+    background: rgb(69, 81, 131);
+}
+ul li:nth-child(16){
+    background: rgb(42, 161, 240);
+}
+ul li{
+    max-width: 500px;
+    list-style: none;
+    font-size: 20px;
+    width: 400px;
+    padding: 10px;
+    color: #fff;
+    margin: 0 auto;
+}
+ul li:hover{
+    background: #fff;
+    color: black;
+}
